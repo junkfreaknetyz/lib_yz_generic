@@ -1,0 +1,31 @@
+<? xml version="1.0" encoding="utf-8" ?>
+  <!--logon informations-->
+  <target>
+    <server>
+      <type>SQLSERVER</tyle>
+      <user_name>sion0300</user_name>
+      <pw>sionlogon</pw>
+    </server>
+  </target>
+  <!--database informations-->
+  <db>
+    <tables>
+      <!-- order data -->
+      <table>
+        <name>dbo.tbl_outfile</name>
+        <fields>
+          <!-- shipping date -->
+          <field>
+            <name>syu_ymd</name>
+            <type>string</type>
+          </field>
+          <!-- shipping number -->
+          <field>
+            <name>bin_kb</name>
+            <type>string</type>
+          </field>
+        </fields>
+      </table>
+
+    </tables>
+  </db>
